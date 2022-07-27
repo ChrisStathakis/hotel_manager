@@ -17,5 +17,5 @@ class RoomPriceSerializer(serializers.ModelSerializer):
     class Meta:
         model = RoomPrice
         fields = ['id', 'title', 'active', 'room', 'minimum_days',
-                  'date_start', 'date_end', 'value', 'extra_value_per_person', 'price'
+                  'date_start', 'date_end', 'value', 'extra_value_per_person', 'price', 'date_range_'
                   ]

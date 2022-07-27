@@ -100,6 +100,17 @@ class Reservation(models.Model):
             return 'ΣΕ ΕΞΕΛΙΞΗ' if self.checkIn else 'ΚΡΑΤΗΣΗ'
         return 'ΟΛΟΚΛΗΡΩΜΕΝΗ' if self.isDone and not self.isCancel else 'ΑΚΥΡΩΜΕΝΗ'
 
+    def str_color(self):
+        if not self.isDone and not self.isCancel:
+            return 'green' if self.checkIn else 'red'
+        return 'yellow' if self.isDone and not self.isCancel else 'red'
+
+    def str_customer(self):
+        return self.customer.title
+
+    def str_room(self):
+        return self.room.title if self.room else 'No Room'
+
     def color_for_calendar(self):
         if self.isCancel:
             return 'yellow'
@@ -245,6 +256,12 @@ class Reservation(models.Model):
                 'price': price
             })
         return room_list
+
+    def str_room_day_price(self):
+        return self.value/self.days if self.days >0 else 0
+
+    def str_extra_price_per_day(self):
+        return self.extra_cost_per_person/self.days if self.days > 0 else 0
 
     @staticmethod
     def filters_data(request, qs):

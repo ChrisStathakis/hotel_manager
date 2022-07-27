@@ -150,6 +150,8 @@ class Room(models.Model):
         return qs
 
 
+
+
 class RoomPrice(models.Model):
     title = models.CharField(max_length=200, verbose_name='ΤΙΤΛΟΣ')
     active = models.BooleanField(default=True, verbose_name='ΚΑΤΑΣΤΑΣΗ')
@@ -200,6 +202,10 @@ class RoomPrice(models.Model):
 
     def get_delete_url(self):
         return reverse('rooms:action_room_price_delete', kwargs={'pk': self.id})
+
+    @property
+    def date_range_(self):
+        return f'{self.date_start} - {self.date_end}'
 
 
 class RoomCharge(models.Model):

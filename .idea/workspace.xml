@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="404a2a19-6361-4d15-9c20-51becf863778" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/payroll/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payroll/api/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservations/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservations/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reservations/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel_manager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hotel_manager/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservations/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +18,7 @@
     <SUITE FILE_PATH="coverage/hotel_manager$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1631193340359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="22558" />
+    <option name="totalTimeSeconds" value="22687" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -79,11 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservations/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
               <caret line="104" column="52" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hotel_manager/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -205,7 +202,6 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/customers/api/urls.py" />
         <option value="$PROJECT_DIR$/customers/api/serializers.py" />
-        <option value="$PROJECT_DIR$/hotel_manager/settings.py" />
         <option value="$PROJECT_DIR$/customers/api/views.py" />
         <option value="$PROJECT_DIR$/reservations/views.py" />
         <option value="$PROJECT_DIR$/reservations/helper.py" />
@@ -221,6 +217,7 @@
         <option value="$PROJECT_DIR$/reservations/api/views.py" />
         <option value="$PROJECT_DIR$/reservations/models.py" />
         <option value="$PROJECT_DIR$/reservations/api/serializers.py" />
+        <option value="$PROJECT_DIR$/hotel_manager/settings.py" />
       </list>
     </option>
   </component>
@@ -277,6 +274,11 @@
           <expand>
             <path>
               <item name="hotel_manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel_manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel_manager" type="462c0819:PsiDirectoryNode" />
               <item name="hotel_manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -391,7 +393,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.509375" side_tool="true" weight="0.33049947" />
@@ -669,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotel_manager/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="183" column="82" selection-start-line="183" selection-start-column="82" selection-end-line="183" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reservations/helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -803,6 +799,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="104" column="52" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel_manager/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="38" />
         </state>
       </provider>
     </entry>

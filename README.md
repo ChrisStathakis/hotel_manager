@@ -12,5 +12,5 @@ Contains :
   username: admin
   password: adminadm
 
-In Progress
+In Progress:
 Add django rest framework, and make this app as back end for my new React App
